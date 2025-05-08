@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: black;
+  justify-self: center;
+  color: azure;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:hover{
+  color: yellow;
+}
+
+::-webkit-scrollbar {
+  overflow: hidden;
+}

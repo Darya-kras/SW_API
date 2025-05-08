@@ -1,0 +1,13 @@
+.HeroCard{
+    color: yellow;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: white;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 0.168);
+}
+.aboutChar{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}

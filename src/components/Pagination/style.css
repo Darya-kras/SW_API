@@ -1,0 +1,20 @@
+.pagination {
+    display: flex;
+    justify-content:space-around;
+    background: rgba(255, 255, 255, 0.316);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: outset;
+    border-color: white;
+    border-width: 3px;
+}
+ul{
+    list-style-type: none;
+}
+.page-item{
+    justify-content: space-between;
+    border-color: azure;
+}
+a:hover{
+    color: yellow;
+}
