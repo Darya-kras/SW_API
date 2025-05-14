@@ -3,7 +3,6 @@ import "./style.css"
 
 const Pagination = ({totalPages, paginate}) => {
     const pageNum = []
-
     for (let i = 1; i <= totalPages; i++) {
         pageNum.push(i)
     }
@@ -13,9 +12,9 @@ const Pagination = ({totalPages, paginate}) => {
             {
                 pageNum.map(number => (
                     <li className="page-item" key={number}>
-                        <a herf="!#" className="page-link" onClick={() => paginate(number)}>
+                        <button className="page-link" onClick={() => paginate(number)}>
                             {number}
-                        </a>
+                        </button>
                     </li>
                 ))
             }

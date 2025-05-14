@@ -1,0 +1,15 @@
+.scrollblock{
+    height:100em;
+    overflow: auto;
+
+}
+::-webkit-scrollbar {
+    overflow: hidden;
+  }
+.Listgroup {
+    scroll-behavior: smooth;
+    display: inline; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}

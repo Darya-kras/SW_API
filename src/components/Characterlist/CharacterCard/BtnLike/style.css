@@ -1,0 +1,18 @@
+.BtnLike{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.BtnLike:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+button:active{
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}

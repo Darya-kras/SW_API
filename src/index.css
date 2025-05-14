@@ -1,6 +1,10 @@
+
 body {
+  display: flex;
   margin: 0;
   background: black;
+  background-image: url('./img/cosmos.jpg');
+  background-size:100%;
   justify-self: center;
   color: azure;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,11 +17,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+a{
+  color: white;
+  text-decoration: none; 
+}
 a:hover{
+  color: yellow;
+}
+.activ {
   color: yellow;
 }
 
 ::-webkit-scrollbar {
   overflow: hidden;
+}
+.container{
+  justify-content: center;
 }

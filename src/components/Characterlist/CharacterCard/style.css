@@ -1,13 +1,37 @@
-.HeroCard{
+.HeroCard{  
     color: yellow;
+    font-size: 0.85rem;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     border-style: outset;
     border-color: white;
     border-width: 1px;
     background: rgba(255, 255, 255, 0.168);
 }
+.Photo{
+    display: inline;
+    height: 12rem;
+    width: 9rem;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 7px;
+
+}
+.body{
+    display:flex;
+    justify-content: space-between;
+}
 .aboutChar{
     color: white;
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content:first baseline;
+}
+.origin{
+    padding: 0  2rem 0 0; 
+}
+.appearance{
+   
+    max-width: 7rem;
+    padding: 0 2rem 0 2rem;
 }

@@ -1,13 +1,24 @@
 import Header from './components/Header/Header';
-import Pagination from './components/Pagination/Pagination';
+import FavoritesPage from './pages/FavoritesPage/FavoritesPage';
 import Homepage from './pages/Homepage/Homepage';
+import { SearchProvider } from './components/SearchBar/SearchContext';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
+
   return (
     <div className="App">
+      <Router>
+      <SearchProvider>
+        <div className='Base'>
           <Header />
-       
-          <Homepage />
+          <Routes>
+            <Route path='/' element={<Homepage />}/>
+            <Route path='/FavoritesPage' element={<FavoritesPage />}/>
+          </Routes>
+        </div>
+      </SearchProvider>
+      </Router>
     </div>
   );
 }

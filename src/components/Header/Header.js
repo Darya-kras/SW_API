@@ -1,10 +1,10 @@
 import "./style.css";
 
+import { NavLink } from "react-router-dom";
 import SearchBar from "./../SearchBar/SearchBar";
 
-const Header = () => {
-    const activelink = 'nav-list__link nav-list__link--active';
-    const normallink = 'nav-list__link';
+
+const Header = ({ searchTerm, setSearchTerm }) => {
 
     return (
         <nav className="nav">
@@ -13,18 +13,17 @@ const Header = () => {
                 <div className="nav-row">
 
                     <strong>STAR WARS CHARACTERS</strong> 
-                    <SearchBar />
+                    <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
                     
-                    
+
                     <ul className="nav-list">
-
-                        <li className="nav-list__item">
+                        <NavLink to={`/`}>
                          MAIN 
-                        </li>
+                        </NavLink>
 
-                        <li className="nav-list__item">
+                        <NavLink to={`/FavoritesPage`}>
                          FAVORITE
-                        </li>
+                        </NavLink>
                         
                                            
                     </ul>

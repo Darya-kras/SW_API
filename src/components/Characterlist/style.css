@@ -1,4 +1,24 @@
+.scrollblock{
+    justify-content: center;
+    min-width: 60%;
+    min-height: 60%;
+    height: 32rem;
+    max-height: 65%;
+    overflow: auto;
+
+}
+::-webkit-scrollbar {
+    overflow: hidden;
+  }
 .Listgroup {
     justify-content: center;
-    padding: 10px 0 10px 0;
+    width: 700px;
+    scroll-behavior: smooth;
+    display: inline; 
+    align-items: center;
+}
+.list-group-item{
+    justify-content: center;
+    display: flex;
+    width: 100%;
 }
