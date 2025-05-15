@@ -40,7 +40,7 @@ const CharacterCard = ({ UID }) => {
             <div className='body'>
 
             
-            <img
+            <img 
                 className="Photo"
                 src={`/people/${UID}.jpg`}
                 alt="Персонаж"
