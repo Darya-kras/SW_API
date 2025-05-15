@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SW_API/static/css/main.dd65d5c1.css",
+    "main.js": "/SW_API/static/js/main.c4e6be4b.js",
+    "static/js/453.0c0b1ad5.chunk.js": "/SW_API/static/js/453.0c0b1ad5.chunk.js",
+    "static/media/cosmos.jpg": "/SW_API/static/media/cosmos.e967fea2a62b6d22abfd.jpg",
+    "index.html": "/SW_API/index.html",
+    "main.dd65d5c1.css.map": "/SW_API/static/css/main.dd65d5c1.css.map",
+    "main.c4e6be4b.js.map": "/SW_API/static/js/main.c4e6be4b.js.map",
+    "453.0c0b1ad5.chunk.js.map": "/SW_API/static/js/453.0c0b1ad5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd65d5c1.css",
+    "static/js/main.c4e6be4b.js"
+  ]
+}
