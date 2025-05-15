@@ -1,7 +1,7 @@
 {
   "name": "vrotebis",
   "version": "0.1.0",
-  "homepage": "https://Darya-kras.github.io/SW-API-V.2",
+  "homepage": "https://Darya-kras.github.io/SW-API-V.3",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
