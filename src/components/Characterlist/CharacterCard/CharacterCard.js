@@ -38,14 +38,9 @@ const CharacterCard = ({ UID }) => {
         <div className="HeroCard">
             <h3>Card: {UID} Name: {name}</h3> 
             <div className='body'>
-
-            
-            <img 
-                className="Photo"
-                src={`/people/${UID}.jpg`}
-                alt="Персонаж"
-            />
-
+    
+            <img className='Photo' src={`${process.env.PUBLIC_URL}/people/${UID}.jpg`} alt='3' />
+    
             <div className="aboutChar">
                 
                 <div className='origin'> ORIGIN
